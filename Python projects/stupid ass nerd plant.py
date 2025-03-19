@@ -1,3 +1,4 @@
+#Checks it the input is exatly as stated with case sensitivity
 
 X = input ("name the thing: ")
 if X == "Spathiphyllum":

@@ -1,4 +1,6 @@
-#PC_Fund 83.33/67.5/87.5
+#Inputs the grades for all the tests and assingments of a course and calculates te averages
+
+#PC_Fund 83.33/67.5/87.5/73.33
 #Inter_SK 
 #Prog_Esse
 #UI_UX
@@ -9,7 +11,7 @@ PCF_Test_1 = float (input ("Test 1 for Computer Fundamentals: "))
 PCF_Test_2 = float (input ("Test 2 for Computer Fundamentals: "))
 PCF_Test_3 = float (input ("Test 3 for Computer Fundamentals: "))
 PCF_Test_4 = 0
-PCF_Assing_1 = 0
+PCF_Assing_1 = float (input ("Assing 1 for Computer Fundamentals: "))
 PCF_Assing_2 = 0
 
 IS_Present_1 = 0
@@ -46,20 +48,20 @@ N_1 = ((N_Test_1 * 30) + (N_Test_2 * 30)+ (N_Test_3 * 40)) / 30
 CS_1 = ((CS_Assing_1 * 10) + (CS_Assing_2 * 10) + (CS_Assing_3 * 20)  + (CS_Assing_4 * 20)  + (CS_Assing_5 * 20)  + (CS_Assing_6 * 20)) / 10
 #add 10, 20, 20, 20, 20
 
-print  ("\n \n___Médias preliminares___ \n \n", "Computer Fundamentals - ", round(PC_Fund_1, 2), "\n Interpesonal Skills - ", round(IS_1, 2), "\n Programming Essencials - ", round(PE_1, 2), "\n UX and UI - ", round(UX_UI, 2), "\n Numerology - ", round(N_1, 2), "\n Core Skills - ", round(CS_1, 2), "\n")
+print  ("\n \n___Preliminary grades___ \n \n", "Computer Fundamentals - ", round(PC_Fund_1, 2), "\n Interpesonal Skills - ", round(IS_1, 2), "\n Programming Essencials - ", round(PE_1, 2), "\n UX and UI - ", round(UX_UI, 2), "\n Numerology - ", round(N_1, 2), "\n Core Skills - ", round(CS_1, 2), "\n")
 
 if PC_Fund_1 < 40:
-    print ("\n Ta fudido em Computer Fundamentals")
+    print ("\n Bad news on Computer Fundamentals")
 if IS_1 < 40:
-    print ("\n Ta fudido em Interpesonal Skills")
+    print ("\n Bad news on Interpesonal Skills")
 if PE_1 < 40:
-    print ("\n Ta fudido em programing essencials")
+    print ("\n Bad news on programing essencials")
 if UX_UI < 40:
-    print ("\n Ta fudido em UI e UX")
+    print ("\n Bad news on UI & UX")
 if N_1 < 40:
-    print ("\n Ta fudido em numerologia")
+    print ("\n Bad news on numerologia")
 if CS_1 < 40:
-    print ("\n Ta fudido em Core Skills")               
+    print ("\n Bad news on Core Skills")               
 Todas = (PC_Fund_1 + IS_1 + PE_1 + UX_UI + N_1 + CS_1) / 6
 if Todas >= 40:
-    print ("\nTodas as medias boas... por enquanto...")
+    print ("\nAll grades good, for now...")

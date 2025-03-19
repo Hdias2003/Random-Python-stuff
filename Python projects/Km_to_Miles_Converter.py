@@ -1,3 +1,5 @@
+#Converts Kilometers to Miles and vise-versa
+
 KM = 100
 Miles = 100
 ConvertRate = 1.61

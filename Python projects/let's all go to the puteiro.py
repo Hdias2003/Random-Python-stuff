@@ -1,3 +1,5 @@
+#Goes to the brothel until there's no money left
+
 Money = 1000
 while Money >= 50:
     print  ("tenho ", Money, "euros, vamos ao puteiro!!")

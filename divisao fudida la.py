@@ -1,8 +1,3 @@
-#print ("\"i'm\" \n \"learning\" \n \"python\"")
-
-#print ("\"I'm\"", "\"learning\"", "\"pythoin\"", sep="\n")
-
-#print ('"i\'m"', '""lernaing""', '"""python"""', sep ='\n')
 
 #comi o cu do de baixo
 

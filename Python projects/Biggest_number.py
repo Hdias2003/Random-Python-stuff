@@ -1,3 +1,5 @@
+#Compares numbers and decides witch is bigger
+
 X = int (input("first ")) 
 Y = int (input("second ")) 
 Z = int (input("thrid "))
@@ -20,5 +22,4 @@ if big2 > B:
 else:
     big3 = B
 
-#Second definition
-print ("big number is ", big3)
+print ("Me like when number big, bigget number is ", big3)
